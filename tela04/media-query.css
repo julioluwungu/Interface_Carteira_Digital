@@ -1,6 +1,72 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 899px) {
+    header {
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+    }
+
+    header div#cabecalho {
+        width: calc(100% - 250px);
+    }
+
+    header span.material-symbols-outlined {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    header span#menu-lateral {
+        display: block;
+    }
+
+    header nav li {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    div#container {
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+    }
+
+    header div#cabecalho {
+        width: calc(100% - 250px);
+    }
+
+    header span.material-symbols-outlined {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    header span#menu-lateral {
+        display: block;
+    }
+
+    header nav li {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
     div#container {
         flex-flow: row nowrap;
         justify-content: space-around;

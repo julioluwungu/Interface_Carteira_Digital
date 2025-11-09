@@ -16,9 +16,11 @@ body {
 }
 
 header {
+    display: flex;
+    flex-flow: column nowrap;
     text-align: center;
     background-color: black;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 header h1 {
@@ -28,6 +30,42 @@ header h1 {
 
 header p {
     font-size: 1.1em;
+}
+
+header div#cabecalho {
+    margin-bottom: 20px;
+}
+
+header span#menu-lateral {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    background-color: #222020;
+    margin: 3px 0px;
+    padding: 5px;
+}
+
+header nav {
+    display: none;
+}
+
+header span.material-symbols-outlined {
+    box-sizing: border-box;
+    display: block;
+    background-color: #222020;
+    border: 2px solid transparent;
+    border-bottom-color: black;
+    cursor: pointer;
+}
+
+header span.material-symbols-outlined:hover, header li:hover {
+    background-color: white;
+    color: black;
 }
 
 div#container {
@@ -51,6 +89,12 @@ div.card {
 }
 
 div.card:hover {
+    width: 220px;
+    height: 420px;
+    border: 1px solid white;
+}
+
+div.card.ativo {
     width: 220px;
     height: 420px;
     border: 1px solid white;

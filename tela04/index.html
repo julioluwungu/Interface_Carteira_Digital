@@ -6,30 +6,45 @@
     <title>Painel Principal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
 <body>
     <header>
-        <h1>Carteira Digital</h1>
-        <p><strong>Nome do Usuário:</strong> Júlio Paulo Altino Luwungu</p>
-        <p><strong>Saldo Disponível:</strong> 1.000.000.000,00 kzs</p>
+        <div id="cabecalho">
+            <h1>Carteira Digital</h1>
+            <p><strong>Nome do Usuário:</strong> Júlio Paulo Altino Luwungu</p>
+            <p><strong>Saldo Disponível:</strong> 1.000.000.000,00 kzs</p>
+        </div>
+        <nav>
+            <span id="menu-lateral">Menu lateral</span>
+            <ul>
+                <li>Saldo actual</li>
+                <li>Transações Recentes</li>
+                <li>Enviar Dinheiro</li>
+                <li>Receber Dinheiro</li>
+            </ul>
+        </nav>
+        <span id="icone" class="material-symbols-outlined">menu</span>
     </header>
     <div id="container">
         <div id="card1" class="card">
             <span>Saldo atual</span>
-            <div class="imagem"><img src="imagens/saldo-atual.png" alt="Administrador"></div>
+            <div class="imagem"><img src="imagens/saldo-atual.png" alt="Saldo atual"></div>
         </div>
         <div id="card2" class="card">
             <span>Transações recentes</span>
-            <div class="imagem"><img src="imagens/transacao.png" alt=""></div>
+            <div class="imagem"><img src="imagens/transacao.png" alt="Transações"></div>
         </div>
-        <div id="card2" class="card">
+        <div id="card3" class="card">
             <span>Enviar Dinheiro</span>
-            <div class="imagem"><img src="imagens/enviar.jpg" alt=""></div>
+            <div class="imagem"><img src="imagens/enviar.jpg" alt="Enviar Dinheiro"></div>
         </div>
-        <div id="card2" class="card">
+        <div id="card4" class="card">
             <span>Receber <br> Dinheiro</span>
-            <div class="imagem"><img src="imagens/receber.png" alt=""></div>
+            <div class="imagem"><img src="imagens/receber.png" alt="Receber Dinheiro"></div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
