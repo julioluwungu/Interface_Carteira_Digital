@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+}
+
+body {
+    font-family: "noto sans";
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(33, 157, 234), lightskyblue 60%, rgb(33, 157, 234));
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+div.card {
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 250px;
+    height: 500px;
+    background-color: #222020;
+    border-radius: 5px;
+    box-shadow: -3px 3px 5px black;
+    cursor: pointer;
+}
+
+div.card:hover {
+    width: 270px;
+    height: 520px;
+}
+
+div.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+div#dados {
+    padding: 10px;
+    height: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}

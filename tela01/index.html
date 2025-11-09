@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <div id="cabecalho">
+            <span>Faça o seu Cadastro</span>
+        </div>
+        <hr>
+        <div>
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome" class="campo" minlength="10" maxlength="30" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="campo" minlength="10" maxlength="30" required>
+        </div>
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" class="campo" minlength="8" maxlength="20" required>
+        </div>
+        <div id="botao">
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+</body>
+</html>
