@@ -1,15 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px) {
-    body {
-        position: relative;
-    }
-
-    div#container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+@media screen and (min-width: 880px) {
+    div#container-principal {
         flex-flow: row nowrap;
+        gap: 5vw;
     }
 }

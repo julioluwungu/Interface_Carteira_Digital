@@ -20,6 +20,12 @@ h1 {
     margin: 20px;
 }
 
+div#container-principal {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+}
+
 div.container {
     margin: 20px auto;
     display: flex;
@@ -80,6 +86,10 @@ div.icone {
 div.icone:hover {
     border: 1.5px solid blue;
     color: blue;
+}
+
+p.oculto {
+    display: none;
 }
 
 button {
